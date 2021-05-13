@@ -1,0 +1,190 @@
+{
+	"pages": [
+		
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"navigationBarTitleText": "欢迎使用！"
+			}
+		},
+		{
+			"path": "pages/recommend/list",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/demination/cityselect/cityselect",
+			"style": {
+				"navigationBarTitleText": "推荐"
+			}
+		},
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+		    "path" : "urlTest/urlTest",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"navigationBarTitleText": "欢迎您的登录！"
+			}
+		},
+		{
+		    "path" : "pages/my/my",
+		    "style" : {"navigationBarTitleText": "我的"}
+		},
+		{
+		    "path" : "pages/my/myInfo",
+		    "style" : {"navigationBarTitleText": "个人中心"}
+		}
+		,{
+		    "path" : "pages/my/myNickname",
+		    "style" : {"navigationBarTitleText": "昵称"}
+		}
+		,{
+		    "path" : "pages/my/myPassword",
+		    "style" : {"navigationBarTitleText": "密码"}
+		}
+		,{
+		    "path" : "pages/my/mySex",
+		    "style" : {"navigationBarTitleText": "性别"}
+		}
+		,{
+		    "path" : "pages/my/myBirthday",
+		    "style" : {"navigationBarTitleText": "生日"}
+		}
+		,{
+		    "path" : "pages/my/myFace",
+		    "style" : {"navigationBarTitleText": "头像"}
+		}
+		,{
+		    "path" : "pages/my/myExplanation",
+		    "style" : {"navigationBarTitleText": "我的讲解"}
+		}
+		,{
+		    "path" : "pages/my/myHelp",
+		    "style" : {"navigationBarTitleText": "常见问题"}
+		}
+		,{
+		    "path" : "pages/my/myAbout",
+		    "style" : {"navigationBarTitleText": "关于我们"}
+		},
+        {
+			"path": "pages/message/message",
+			"style":{
+				"navigationBarTitleText":"博物馆信息",
+				"app-plus":{
+					"pullToRefresh":{
+						"color":"#DDD5AF"
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/exhibition/exhibition",
+			"style":{
+				"navigationBarTitleText":"展览信息"
+			}
+		},
+		{
+			"path":"pages/collection/collection",
+			"style":{
+				"navigationBarTitleText":"藏品信息"
+			}
+		}
+        ,{
+            "path" : "pages/sorting/sorting",
+            "style" : {
+				"navigationBarTitleText":"排行榜"
+			}
+        },
+		{
+		    "path" : "pages/map-list/map-list",
+		    "style" : {
+				"navigationBarTitleText":"地图"
+			}
+		},
+		{
+		    "path" : "pages/demination/demination",
+		    "style" : {
+				"backgroundColor":"#333333",
+				"enablePullDownRefresh" : true ,
+				"navigationBarTitleText":"目的地",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [ 
+							
+							{
+								"text" : "搜索    ",
+								"fontSize":"16",
+								"float": "right",
+								"color":"#000000"
+							}
+						]
+					}
+				}
+			}
+		},
+        {
+            "path" : "pages/message/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText":"评价"
+				}
+		},	
+		{
+			"path":"pages/explain/explain",
+			"style":{
+				"navigationBarTitleText":"讲解"
+			}
+		},
+		{
+			"path":"pages/record/record",
+			"style":{
+				"navigationBarTitleText":"录制讲解"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "公共页面标题",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh":true
+	},
+	"tabBar": {
+		"color":"#C09460",
+		"selectedColor":"#4A81AA",
+		"list":[
+			{
+				"pagePath": "pages/recommend/list",
+				"iconPath": "static/icon/index.png",
+				"selectedIconPath": "static/icon/index1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/sorting/sorting",
+				"iconPath": "static/icon/rank.png",
+				"selectedIconPath": "static/icon/rank1.png",
+				"text": "排行榜"
+			},
+			{"pagePath": "pages/demination/demination",
+				"iconPath": "static/icon/location.png",
+				"selectedIconPath": "static/icon/location1.png",
+				"text": "目的地"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath": "static/icon/my1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
