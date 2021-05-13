@@ -1,0 +1,75 @@
+.home swiper{
+    height: 380rpx;
+    width: 750rpx;
+}
+.uni-media-head-pictrue {
+    height: 375rpx;
+    width: 750rpx;
+}
+.list_row {
+    height: 375rpx;
+    width: 750rpx;
+    background-color: #007AFF;
+}
+.uni-media-list-logo {
+    width: 180upx;
+    height: 140upx;
+}
+.uni-media-list-body {
+    height: auto;
+    justify-content: space-around;
+}
+.uni-media-list-text-top {
+    height: 74upx;
+    font-size: 28upx;
+    overflow: hidden;
+}
+.uni-media-list-text-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.scroll-view_H {
+    white-space: nowrap;
+    display: flex;
+    width: 100%;
+}
+.scroll-view_H image {
+    width: 100%;
+    height: 100%;
+}
+.scroll-view-item_H {
+    display: inline-block;
+    width: 70%;
+    height: 300rpx;
+    line-height: 300rpx;
+    text-align: center;
+}
+.banner {
+    height: 360upx;
+    overflow: hidden;
+    position: relative;
+    background-color: #ccc;
+}
+.banner-img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.banner-title {
+    max-height: 84upx;
+    overflow:hidden;
+    position: absolute;
+    left: 11upx;
+    bottom: 30upx;
+    width: 70%;
+    font-size: 32upx;
+    font-weight: 400;
+    line-height: 42upx;
+    color: white;
+    z-index: 11;
+}
+.banner-contain {
+    overflow: hidden;
+    position: relative;
+}

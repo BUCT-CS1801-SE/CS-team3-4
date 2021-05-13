@@ -1,0 +1,23 @@
+.exhMessage_yrn{
+	margin: 0 auto;
+	max-width: 800rpx;
+}
+.exhShow_yrn{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	max-width: 800rpx;
+    margin: 0 auto;
+	height: 400rpx;
+}
+.exhTitle1_yrn{
+	font-size: 45rpx;
+	margin: auto 15rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.exhIntroCard_yrn p{
+	margin: auto 15rpx;
+	font-size: 30rpx;
+}

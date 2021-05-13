@@ -1,0 +1,22 @@
+<template>
+    <view>
+        <view class="banner">
+            <image class="banner-img" :src="banner.cover"></image>
+            <view class="banner-title">{{banner.title}}</view>
+        </view>
+        <view class="article-meta">
+            <text class="article-author">{{banner.author_name}}</text>
+            <text class="article-text">发表于</text>
+            <text class="article-time">{{banner.published_at}}</text>
+        </view>
+		<view>{{banner.maintext}}</view>
+    </view>
+</template>
+
+<script src = "./details.js">
+</script>
+
+<style>
+@import 'details.css';
+</style>
+ 

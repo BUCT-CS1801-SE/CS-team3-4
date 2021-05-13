@@ -1,0 +1,103 @@
+.login_tip_position_hgq{
+	text-align: center;
+}
+.login_font_color_hgq{ color: #000000; }
+.login_padding_hgq{ padding: 20upx 0; }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-guanbi{
+	position: fixed;
+	top: 110rpx;
+	left: 10upx;
+	font-size: 40upx;
+	font-weight: bold;
+	color: #332F0A;
+	z-index: 100;
+}
+.loginhead_hgq{ width: 100%; border-radius: 10upx;}
+.login_body_hgq{
+	padding: 0 20upx!important;
+	margin-top: 50rpx;
+}
+.common_input_hgq{
+	font-size: 30upx;
+	border-bottom: 1upx solid #F4F4F4;
+}
+
+.u-f-ajc{
+	text-align: center;
+}
+.other-login-title{
+	position: relative;
+}
+.other-login-title:before,.other-login-title:after{
+	content: "";
+	position: absolute;
+	background: #BBBBBB;
+	height: 1upx;
+	width: 100upx;
+	top: 50%;
+}
+.other-login-title:before{
+	left: 25%;
+}
+.other-login-title:after{
+	right: 25%;
+}
+.login_input_box_hgq{
+	position: relative;
+	
+}
+.login_input_box_hgq .forget-input{
+	padding-right: 150upx;
+}
+.login_input_box_hgq .forget,.login_input_box_hgq .phone{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	z-index: 100;
+}
+.login_input_box_hgq .forget{
+	width: 150upx;
+	right: 0;
+}
+.login_input_box_hgq .phone{
+	width:100upx;
+	left: 0;
+	font-weight: bold;
+}
+.login_user_set_btn_hgq{
+	width: 90%;
+	margin-right: 7%;
+	margin-top: 5%;
+	background: #429fff!important;
+	border: 0!important;
+	color: #ffffff!important;
+}
+.login_user_set_btn_disable_hgq{
+	background: #F4F4F4!important;
+	border: 1upx solid #EEEEEE!important;
+	color: #909090!important;
+}
+
+.phone_input_hgq view{
+	background: #EEEEEE;
+	border-radius: 10upx;
+	font-size: 25upx;
+	width: 150upx;
+	padding: 10upx 0;
+}
+.uni-input {
+	height: 70upx;
+	padding: 15upx 25upx;
+	border-radius: 10upx;
+	line-height:50upx;
+	font-size:28upx;
+	background:#FFF;
+	flex: 1;
+}
